@@ -1,0 +1,129 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.bg-image {
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    z-index: -1;
+}
+
+.bgimage{
+    position: absolute;
+    top: 50%;
+    left: -60%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .bg-image {
+        width: 60%;
+        height: 40%;
+        top: -15%;
+        left: 60%;
+    }
+    .image_1 {
+        font-size: 0.8rem;
+    }
+    .lower {
+        margin-top: 10px;
+    }
+    .middle {
+        height: 60vh;
+    }
+    .bgimage {
+        top: 70%;
+        left: -80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .bg-image {
+        width: 100%;
+        left: 25%;
+    }
+    .hamburger {
+        background-color: white;
+        z-index: 1;
+        height: 10%;
+        opacity: 0;
+    }
+    .result {
+        opacity: 1;
+    }
+    .result_1 {
+        background-color: rgba(0, 0, 0, 1);
+    }
+    #round1, #round2, #round3, #round4 {
+        width: 10px;
+        border: 1px solid hsl(12, 88%, 59%);
+        height: 1vh;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .active {background: hsl(12, 88%, 59%);}
+}
+.middle {
+    height: 80vh;
+}
+.middle img{
+    width: 100%;
+}
+
+.circle {
+    color: #fff;
+    width: 30px;
+    border-radius: 50px;
+    height: 100%;
+    background-color: hsl(12, 88%, 59%);
+}
+
+.excolor {
+    color: hsl(227, 12%, 61%);
+}
+
+.rel {
+    position: relative;
+}
+
+.links {
+    color: hsl(228, 39%, 23%);
+    font-size: 0.9rem;
+}
+a:hover {
+    color: hsl(228, 39%, 23%);
+}
+.bg {
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 50px;
+    height: 100%;
+    box-shadow: 0 12px 8px -8px hsl(12, 88%, 59%);
+}
+
+.lower {
+    height: 30vh;
+    background-color: hsl(12, 88%, 59%);
+    margin-top: 150px;
+    overflow: hidden;
+}
+.bg1 {
+    height: 7vh;
+    border-radius: 50px;
+    box-shadow: 0 8px 8px -8px #111;
+    color: hsl(12, 88%, 59%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 15%;
+    font-size: 1.4rem;
+}
+
+.foot {
+    height: 30vh;
+}

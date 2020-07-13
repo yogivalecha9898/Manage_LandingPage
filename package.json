@@ -1,0 +1,14 @@
+{
+  "name": "manage-landing-page-master",
+  "version": "1.0.0",
+  "description": "Mainly to see my Bootstrap knowledge with some mingling of Javascript....!",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yogi Valecha",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}
